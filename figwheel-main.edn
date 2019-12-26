@@ -1,0 +1,2 @@
+{:watch-dirs ["src/cljs"]
+ :ring-server-options {:port 9505}}

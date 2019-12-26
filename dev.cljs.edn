@@ -1,0 +1,7 @@
+{:main rplay.core
+ :optimizations :none
+ :source-map true
+ :output-dir "resources/public/js"
+ :output-to "resources/public/js/main.js"
+ :language-in :ecmascript-2017
+ :language-out :ecmascript-2017}

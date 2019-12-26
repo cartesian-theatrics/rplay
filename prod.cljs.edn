@@ -1,0 +1,12 @@
+{:main rplay.core
+ :optimizations :none
+ :source-map true
+ :output-to "resources/js/main.js"
+ :language-in :ecmascript-2017
+ :language-out :ecmascript-2017
+ :target :nodejs
+ :foreign-libs [{:file "dist/index_bundle.js"
+                 :provides ["rosbag" "lz4js" "buffer"]
+                 :global-exports {rosbag Rosbag
+                                  lz4js Lz4js
+                                  buffer Buffer}}]}
